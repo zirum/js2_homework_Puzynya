@@ -1,0 +1,16 @@
+
+{
+	"menu_items":[
+	    {"href": "https://lk.megafon.ru/", "title": "Личный кабинет" , "id": "item_1"},
+        {"href": "https://ru.wikipedia.org/wiki/Каталог", "title": "Каталог", "id": "item_2"},
+		{"href": "https://promo-akcii.ru/", "title": "Промоакции", "id": "item_3"},
+		{"href": "https://www.sony.ru/", "title": "Sony" , "id": "item_4"},
+        {"href": "https://www.philips.ru/", "title": "Philips", "id": "item_5"},
+		{"href": "https://www.lg.com/ru", "title": "LG", "id": "item_6"},
+		{"href": "https://www.htc.com/ru/", "title": "HTC" , "id": "item_7"},
+        {"href": "www.apple.com/ru", "title": "Iphone", "id": "item_8"},
+		{"href": "https://www.fly-phone.ru/", "title": "Fly", "id": "item_9"}
+	]	
+}
+
+
