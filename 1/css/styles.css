@@ -1,0 +1,18 @@
+.vkl{
+    float:left;
+    width:140px;
+    height:28px;
+    background:#E5BA83;
+    color:white;
+    font-size:20px;
+    border-right:1px solid white;
+    padding-left:10px;
+}
+#content{
+    width:603px;
+    height:100px;
+    background:#CCA675;
+}
+.selected{
+   background:#CCA675;
+}

@@ -1,0 +1,38 @@
+<!-- пример был прямо в документации по использованию jquery ui чуь изменил его для городов ... -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Autocomplete - Scrollable results</title>
+  <link rel="stylesheet" href="./css/jquery-ui.css">
+	
+  <style>
+  .ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+  * html .ui-autocomplete {
+    height: 100px;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="./js/jquery-ui.js"></script><!-- долго грузится -->
+  <script src="./js/script.js"></script>
+  
+</head>
+<body>
+ 
+<div class="ui-widget">
+  <label for="tags">Введите название города кириллицей: </label>
+  <input id="tags">
+</div>
+ 
+ 
+</body>
+</html>
